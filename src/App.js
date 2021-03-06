@@ -1,21 +1,27 @@
-import logo from './logo.svg';
+import bg from './portfolioBG.jpg';
+// import bg from './bookBG.jpg';
 import './App.css';
+
+const bgStyle = {
+  width: '80%',
+  marginTop: '100px'
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={bg} style={bgStyle}/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Full Stack Software Engineer
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/sqnguyen829"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          GitHub
         </a>
       </header>
     </div>
