@@ -1,16 +1,20 @@
 import bg from './portfolioBG.jpg';
+import logo from './logo.png';
 // import bg from './bookBG.jpg';
 import './App.css';
 
 const bgStyle = {
-  width: '80%',
-  marginTop: '100px'
+  width: '85%'
 }
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+        <header className="App-header">
+        <img src={logo} style={{width:'3%', marginTop:'0px'}}/>
+        <p>
+          Steven Nguyen
+        </p>
         <img src={bg} style={bgStyle}/>
         <p>
         Full Stack Software Engineer
