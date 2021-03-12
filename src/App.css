@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.blurring.dimmed.dimmable > :not(.dimmer).popup {
+  filter: none;
+}
