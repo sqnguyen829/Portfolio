@@ -1,23 +1,24 @@
-import bg from './portfolioBG.jpg';
+// import bg from './portfolioBG.jpg';
 import logo from './logo.png';
 // import bg from './bookBG.jpg';
+import bg from './bg2.jpg'
 import './App.css';
 import Nav from './containers/Nav'
 import { Button } from 'semantic-ui-react'
+
 const bgStyle = {
-  width: '85%'
+  width: '100%'
 }
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Nav />
-        <img src={logo} style={{width:'3%', marginTop:'0px'}}/>
+        <img src={logo} style={{width:'3%', marginTop:'-100px'}}/>
+        <Nav/>
         <p>
           Steven Nguyen
         </p>
-        <img src={bg} style={bgStyle}/>
         <p>
         Full Stack Software Engineer
         </p>
